@@ -12,14 +12,18 @@ body {
     font-size: 100%;
     background-color:rgba(255, 255, 255, 0.807);
 }
+/* -------------------------------------------------------------------------------------------------------------------------
 
+NAV-BAR
+
+------------------------------------------------------------------------------------------------------------------------- */
 .header {
     display: flex;
     position: fixed;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    background-color: transparent;
+    background-color: rgba(227, 227, 227, 0.679);
     backdrop-filter: blur(15px);
     height: 80px;
     width: 100%;
@@ -27,7 +31,7 @@ body {
 }
 
 .header.scrolling {
-    background-color: rgba(255, 255, 255, 0.807);
+    background-color: rgba(227, 227, 227, 0.679);
 }
 
 .header-container {
@@ -38,6 +42,7 @@ body {
     width: 483px;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .logo-header {
@@ -71,13 +76,19 @@ body {
     padding: 0px 20px;
     cursor: pointer;
 }
+/* -------------------------------------------------------------------------------------------------------------------------
 
+PRINCIPAL
+
+------------------------------------------------------------------------------------------------------------------------- */
 .content-emphasis {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 70%;
     padding-top: 90px;
 }
 
@@ -87,49 +98,167 @@ body {
     width: 300px;
     height: 300px;
     padding: 0;
-    margin-left: 0;
+    margin-right: 10px;
     border: 0;
-    justify-content: flex-end;
 }
 
 .content-emphasis-text {
     display: flex;
+    margin-left: 35px;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
 }
+/* -------------------------------------------------------------------------------------------------------------------------
 
+SOBRE
+
+------------------------------------------------------------------------------------------------------------------------- */
 .content-about {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    padding-top: 80px;
+}
+
+#header-about {
+    display: flex;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+}
+
+.content-text-about {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+/* -------------------------------------------------------------------------------------------------------------------------
+
+PROJETOS
+
+------------------------------------------------------------------------------------------------------------------------- */
+.section2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #979797;
-}
-
-#header-about {
-    background-color: #fd3434;
-}
-
-.content-about {
-    display: flex;
-}
-
-.content-emphasis-text-about {
-    background-color: aqua;
 }
 
 .content-projects {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #979797;
+    flex-direction: row-reverse;
+    align-items:center;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 #header-projects {
-    background-color: #fd3434;
+    display: flex;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+
 }
 
-.content-emphasis-text-projects {
-    background-color: aqua;
+.content-text-projects {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+/* -------------------------------------------------------------------------------------------------------------------------
+
+RODAPÉ
+
+------------------------------------------------------------------------------------------------------------------------- */
+.footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    background-color: rgba(227, 227, 227, 0.679);
+}
+
+.content-contact {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#header-contact {
+    display: flex;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+
+}
+
+.content-contact-item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #073A4F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.content-contact-button {
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: #073A4F;
+    color: #ffffff;
+}
+
+.content-contact-button:hover {
+    background-color: #ffffff;
+    color:#073A4F;
+    border: 1px solid #073A4F;
 }
