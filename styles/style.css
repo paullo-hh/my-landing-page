@@ -17,15 +17,15 @@ body {
         margin-right: auto;
     }
     
-    .div-header {
-        display: flex;
-        position: fixed;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #f2f2f2;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+.div-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 header {
@@ -143,4 +143,111 @@ div>p {
 
 .text-about>p {
     width: 700px;
+}
+.projects {
+    width: 100%;
+}
+
+.title-projects {
+    width: 146px;
+    font-size: 20px;
+    color: #3a3a3a;
+    border-bottom: 2px solid #5FB7E9;
+    margin-bottom: 5px;
+}
+
+.grid-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 300px;
+    justify-content: center;
+    align-content: center;
+}
+
+.jasper {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.jasper>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border-radius: 25px;
+}
+
+
+.java {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.java>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border-radius: 25px;
+}
+
+.javascript {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.javascript>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border-radius: 25px;
+}
+
+.kotlin {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.kotlin>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border-radius: 25px;
+}
+
+.postgress {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.postgress>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-image: #3a3a3a;
+    border-radius: 25px;
+}
+
+.spring {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.spring>div {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border-radius: 25px;
 }
